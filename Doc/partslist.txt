@@ -1,36 +1,39 @@
+SFG 05/01-B Clone
+Copyright (C) 2017 RBSC
+Copyright (C) Yamaha Corporation
+--------------------------------
+
 Partlist
+
+Assembly variant: 
 
 Part     Value                    Device                   Package              Library             Sheet
 
 C1       100nF                    C-EUC0805                C0805                rcl                 1
 C2       100nF                    C-EUC0805                C0805                rcl                 1
-C3       100nF                    C-EUC0805                C0805                rcl                 1
 C4       100nF                    C-EUC0805                C0805                rcl                 1
-C5       100nF                    C-EUC0805                C0805                rcl                 1
-C6       47uF 16v                 CPOL-EUSMCD              SMC_D                rcl                 1
+C6       47uF 16v                 CPOL-EUSMCC              SMC_C                rcl                 1
 C7       100uF 16v                CPOL-EUSMCD              SMC_D                rcl                 1
 C8       100uF 16v                CPOL-EUSMCD              SMC_D                rcl                 1
-C9       100nF                    C-EUC0805                C0805                rcl                 1
-C10      100nF                    C-EUC0805                C0805                rcl                 1
 C11      10nF                     C-EUC0805                C0805                rcl                 1
 C12      10nF                     C-EUC0805                C0805                rcl                 1
 C13      100nF                    C-EUC0805                C0805                rcl                 1
-C14      4.7uF 25v                CPOL-EUSMCC              SMC_C                rcl                 1
-C15      4.7uF 25v                CPOL-EUSMCC              SMC_C                rcl                 1
+C14      4.7uF 25v                CPOL-EUSMCB              SMC_B                rcl                 1
+C15      4.7uF 25v                CPOL-EUSMCB              SMC_B                rcl                 1
 C16      1.8nF                    C-EUC0805                C0805                rcl                 1
 C17      27nF                     C-EUC0805                C0805                rcl                 1
 C18      10uF 16v                 CPOL-EUSMCB              SMC_B                rcl                 1
 C19      1.8nF                    C-EUC0805                C0805                rcl                 1
 C20      100nF                    C-EUC0805                C0805                rcl                 1
-C21      4.7uF 25v                CPOL-EUSMCC              SMC_C                rcl                 1
-C22      4.7uF 25v                CPOL-EUSMCC              SMC_C                rcl                 1
-C23      47uF 16v                 CPOL-EUSMCD              SMC_D                rcl                 1
+C21      4.7uF 25v                CPOL-EUSMCB              SMC_B                rcl                 1
+C22      4.7uF 25v                CPOL-EUSMCB              SMC_B                rcl                 1
+C23      47uF 16v                 CPOL-EUSMCC              SMC_C                rcl                 1
 C24      100nF                    C-EUC0805                C0805                rcl                 1
 C25      390pF                    C-EUC0805                C0805                rcl                 1
 C26      390pF                    C-EUC0805                C0805                rcl                 1
 C27      100pF                    C-EUC0805                C0805                rcl                 1
-C28      4.7uF 25v                CPOL-EUSMCC              SMC_C                rcl                 1
-C29      4.7uF 25v                CPOL-EUSMCC              SMC_C                rcl                 1
+C28      4.7uF 25v                CPOL-EUSMCB              SMC_B                rcl                 1
+C29      4.7uF 25v                CPOL-EUSMCB              SMC_B                rcl                 1
 C30      10uF 16v                 CPOL-EUSMCB              SMC_B                rcl                 1
 C31      100pF                    C-EUC0805                C0805                rcl                 1
 C32      100pF                    C-EUC0805                C0805                rcl                 1
@@ -48,33 +51,25 @@ C43      100pF                    C-EUC0805                C0805                
 C44      100pF                    C-EUC0805                C0805                rcl                 1
 C45      100pF                    C-EUC0805                C0805                rcl                 1
 C46      100pF                    C-EUC0805                C0805                rcl                 1
+C47      100nF                    C-EUC0805                C0805                rcl                 1
+C48      100nF                    C-EUC0805                C0805                rcl                 1
 D1       1N4148                   DIODE-MINIMELF           MINIMELF             diode               1
 D2       1N4148                   DIODE-MINIMELF           MINIMELF             diode               1
 D3       1N4148                   DIODE-MINIMELF           MINIMELF             diode               1
 IC1      27C512AP                 27C512AP                 DIL28-6              microchip           1
-IC2      74LS30N                  74LS30N                  DIL14                74xx-eu             1
-IC3      74LS03N                  74LS03N                  DIL14                74xx-eu             1
+IC2      74LS04D                  74LS04D                  SO14                 74xx-eu             1
+IC3      EPM7160-T100             EPM7160-T100             TQFP100              altera              1
 IC4      YM2151                   YM2151                   DIL24                ym2151              1
 IC5      YM3012                   YM3012                   DIL16                ym3012              1
-IC6      74LS32N                  74LS32N                  DIL14                74xx-eu             1
-IC7      74LS107N                 74LS107N                 DIL14                74xx-eu             1
-IC10     YM2148                   YM2148                   DIL40                ym2148              1
-IC11     74LS04N                  74LS04N                  DIL14                74xx-eu             1
-IC13     TLP552                   TLP552                   DIL08                TLP552              1
-IC14     LM4556N                  LM4556N                  DIL08                LM4556              1
-IC15     LM4556N                  LM4556N                  DIL08                LM4556              1
-IC16     LM4558N                  LM4558N                  DIL08                LM4558              1
+IC6      LM4556N                  LM4556N                  DIL08                LM4556              1
+IC7      LM4556N                  LM4556N                  DIL08                LM4556              1
+IC8      LM4558N                  LM4558N                  DIL08                LM4558              1
+IC9      TLP552                   TLP552                   DIL08                TLP552              1
 JP1      SFGVER                   JP1E                     JP1                  jumper              1
-JP2      Wire                     JP1E                     JP1                  jumper              1
-JP3      Wire                     JP1E                     JP1                  jumper              1
+JP2                               JP1E                     JP1                  jumper              1
 L1       820mH                    L-EU6000-XXX-RC          6000-XXXX-RC         rcl                 1
 Q1       4mHz                     CRYSTALHC49S             HC49/S               crystal             1
-Q2       BC548A                   BC548A                   TO92-EBC             transistor-npn      1
-Q3       BC557A                   BC557A                   TO92-EBC             transistor-pnp      1
 R1       10k                      R-EU_R0805               R0805                resistor            1
-R2       4.7k                     R-EU_R0805               R0805                resistor            1
-R3       4.7k                     R-EU_R0805               R0805                resistor            1
-R4       4.7k                     R-EU_R0805               R0805                resistor            1
 R5       220                      R-EU_R0805               R0805                resistor            1
 R6       220                      R-EU_R0805               R0805                resistor            1
 R7       560                      R-EU_R0805               R0805                resistor            1
@@ -103,18 +98,35 @@ R29      220                      R-EU_R0805               R0805                
 R30      1k                       R-EU_R0805               R0805                resistor            1
 R31      220                      R-EU_R0805               R0805                resistor            1
 R32      1k                       R-EU_R0805               R0805                resistor            1
-R33      1k                       R-EU_R0805               R0805                resistor            1
-R34      1k                       R-EU_R0805               R0805                resistor            1
+R33      1.8k                     R-EU_R0805               R0805                resistor            1
+R34      1.8k                     R-EU_R0805               R0805                resistor            1
 R35      2.2k                     R-EU_R0805               R0805                resistor            1
 R36      2.2k                     R-EU_R0805               R0805                resistor            1
 R37      2.2k                     R-EU_R0805               R0805                resistor            1
+R38      10k                      R-EU_R0805               R0805                resistor            1
+R39      10k                      R-EU_R0805               R0805                resistor            1
+R40      10k                      R-EU_R0805               R0805                resistor            1
+R41      10k                      R-EU_R0805               R0805                resistor            1
+R42      10k                      R-EU_R0805               R0805                resistor            1
+R43      10k                      R-EU_R0805               R0805                resistor            1
+R44      10k                      R-EU_R0805               R0805                resistor            1
+R45      10k                      R-EU_R0805               R0805                resistor            1
+R46      10k                      R-EU_R0805               R0805                resistor            1
+R47      10k                      R-EU_R0805               R0805                resistor            1
+R48      10k                      R-EU_R0805               R0805                resistor            1
+R49      10k                      R-EU_R0805               R0805                resistor            1
 T1       2SC1815                  2SC1815                  TO92-ECB             transistor          1
 T2       BC637                    BC637-NPN-TO92-ECB       TO92-ECB             transistor          1
 T3       BC637                    BC637-NPN-TO92-ECB       TO92-ECB             transistor          1
 T4       BC637                    BC637-NPN-TO92-ECB       TO92-ECB             transistor          1
+T5       BC557A                   BC557A                   TO92-EBC             transistor-pnp      1
+T6       BC548A                   BC548A                   TO92-EBC             transistor-npn      1
 X1       SFG-60                   SFG-60                   SFG-60               sfg-60              1
 X2       SFG-20                   SFG-20                   SFG-20               sfg-20              1
 X3       MIDI_CONN_FEMALE_SUPPORT MIDI_CONN_FEMALE_SUPPORT DIN_5_FEMALE_SUPPORT SparkFun-Connectors 1
 X4       MIDI_CONN_FEMALE_SUPPORT MIDI_CONN_FEMALE_SUPPORT DIN_5_FEMALE_SUPPORT SparkFun-Connectors 1
 X5       RCA                      RCA                      RCA                  rca                 1
 X6       RCA                      RCA                      RCA                  rca                 1
+X7       JTAG10                   JTAG10                   JTAG10               jtag                1
+X8A      AUDIO                    JP1E                     JP1                  jumper              1
+X8B      AUDIO                    JP1E                     JP1                  jumper              1

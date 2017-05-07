@@ -1,4 +1,4 @@
-SFG 05/01-B Clone
+Yamaha SFG 05/01-B Clone Board v1.0
 Copyright (C) 2017 RBSC
 Copyright (C) Yamaha Corporation
 --------------------------------

@@ -1,9 +1,7 @@
-Yamaha SFG 05/01-B Clone Board v1.0
+SFG 05/01-B Clone Version 1.1
 Copyright (C) 2017 RBSC
 Copyright (C) Yamaha Corporation
 --------------------------------
-
-Partlist
 
 Assembly variant: 
 
@@ -11,6 +9,7 @@ Part     Value                    Device                   Package              
 
 C1       100nF                    C-EUC0805                C0805                rcl                 1
 C2       100nF                    C-EUC0805                C0805                rcl                 1
+C3       47pF                     C-EUC0805                C0805                rcl                 1
 C4       100nF                    C-EUC0805                C0805                rcl                 1
 C6       47uF 16v                 CPOL-EUSMCC              SMC_C                rcl                 1
 C7       100uF 16v                CPOL-EUSMCD              SMC_D                rcl                 1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6220,14 +6220,14 @@ Source: http://www.lumberg.de/Produkte/PDFs/WBTOR1.pdf</description>
 <wire x1="-4.9" y1="-13.9" x2="4.9" y2="-13.9" width="0.2032" layer="51"/>
 <wire x1="-4.9" y1="-13.9" x2="3.9" y2="-13.9" width="0.2032" layer="21"/>
 <wire x1="4.9" y1="-0.1" x2="4.9" y2="-9.4" width="0.2032" layer="21"/>
-<pad name="GND" x="0" y="-4" drill="1.4" diameter="2.2" shape="long"/>
-<pad name="AUD" x="5.3" y="-12" drill="1" diameter="2.2" shape="long" rot="R90"/>
+<pad name="GND" x="0" y="-4" drill="1.778" diameter="2.2" shape="long"/>
+<pad name="AUD" x="5.3" y="-12" drill="1.778" diameter="2.2" shape="long" rot="R90"/>
 <text x="-6.985" y="-13.97" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="8.255" y="-13.97" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <hole x="-3.75" y="-4" drill="1.4"/>
 <hole x="3.75" y="-4" drill="1.4"/>
 <hole x="0" y="-10.5" drill="1.5"/>
-<pad name="AUD1" x="-5.2832" y="-12" drill="1" diameter="2.2" shape="long" rot="R90"/>
+<pad name="AUD1" x="-5.2832" y="-12" drill="1.778" diameter="2.2" shape="long" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -23170,6 +23170,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="JP2" library="jumper" deviceset="JP1E" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="47pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -23240,7 +23241,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="IC2" gate="P" x="256.54" y="17.78"/>
 <instance part="C13" gate="G$1" x="264.16" y="7.62" rot="R270"/>
 <instance part="SUPPLY17" gate="+5V" x="256.54" y="30.48"/>
-<instance part="GND11" gate="1" x="256.54" y="-7.62"/>
+<instance part="GND11" gate="1" x="256.54" y="-10.16"/>
 <instance part="IC2" gate="C" x="35.56" y="78.74"/>
 <instance part="R24" gate="G$1" x="215.9" y="111.76" rot="R180"/>
 <instance part="R29" gate="G$1" x="238.76" y="124.46" rot="R180"/>
@@ -23394,6 +23395,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="JP2" gate="A" x="30.48" y="129.54" rot="R270"/>
 <instance part="SUPPLY5" gate="+5V" x="25.4" y="134.62"/>
 <instance part="GND4" gate="1" x="25.4" y="121.92"/>
+<instance part="C3" gate="G$1" x="205.74" y="-5.08" rot="R90"/>
 </instances>
 <busses>
 <bus name="ST0,ST1,ST2,ST3,ST4,ST5,ST6,ST7,SD0,SD1,SD2,SD3,SD4,SD5,SD6,SD7">
@@ -23464,8 +23466,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="256.54" y1="0" x2="256.54" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="256.54" y="0"/>
 <pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="-5.08" x2="256.54" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="5.08" x2="276.86" y2="0" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="0" x2="256.54" y2="0" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="-5.08" x2="210.82" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="256.54" y="-5.08"/>
 </segment>
 <segment>
 <pinref part="T6" gate="G$1" pin="E"/>
@@ -24969,6 +24975,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="190.5" y1="5.08" x2="185.42" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="5.08" x2="185.42" y2="17.78" width="0.1524" layer="91"/>
 <junction x="185.42" y="17.78"/>
+<wire x1="185.42" y1="5.08" x2="185.42" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="185.42" y="5.08"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="-5.08" x2="203.2" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">

@@ -1,4 +1,4 @@
-Yamaha SFG 05/01-B Clone Board v1.0
+Yamaha SFG 05/01-B Clone Board v1.1
 Copyright (c) 2017 RBSC
 
 The Setup
@@ -67,7 +67,8 @@ Notes
 -----
 
 If you are using 74HCT04 chip instead of 74LS04 please make sure you add one additional 47pf capacitor. See the 74HCT04_fix.jpg
-image for capacitor mounting instructions.
+image for capacitor mounting instructions. This picture shows how to install the capacitor on board version 1.0. Later boards
+have the special placeholder for the capacitor.
 
 
 IMPORTANT!

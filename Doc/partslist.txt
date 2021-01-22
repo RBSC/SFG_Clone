@@ -66,7 +66,7 @@ IC8      LM4558N                  LM4558N                  DIL08                
 IC9      TLP552                   TLP552                   DIL08                TLP552              1
 JP1      SFGVER                   JP1E                     JP1                  jumper              1
 JP2                               JP1E                     JP1                  jumper              1
-L1       820mH                    L-EU6000-XXX-RC          6000-XXXX-RC         rcl                 1
+L1       820uH                    L-EU6000-XXX-RC          6000-XXXX-RC         rcl                 1
 Q1       4mHz                     CRYSTALHC49S             HC49/S               crystal             1
 R1       10k                      R-EU_R0805               R0805                resistor            1
 R5       220                      R-EU_R0805               R0805                resistor            1

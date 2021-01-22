@@ -23069,7 +23069,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="rcl" deviceset="L-EU" device="6000-XXX-RC" value="820mH"/>
+<part name="L1" library="rcl" deviceset="L-EU" device="6000-XXX-RC" value="820uH"/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="SMCC" value="47uF 16v"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="SUPPLY12" library="supply2" deviceset="+5V" device=""/>
